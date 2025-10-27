@@ -1,6 +1,7 @@
 #Init
 #Our lookup table
 digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+import random
 
 def to_decimal(number_string, original_base):
     #Validate the base
@@ -41,8 +42,9 @@ def from_decimal(decimal_number, target_base):
 
 
 if __name__ == "__main__":
+    #Greet the user
     print("Welcome to The Hexorcist™\n")
-    item=randint(0, 5)
+    item=random.randint(0, 4)
     startup_items=["The Power of Math Compels you!", "Whatdoyouwant?","You're looking for a number!", "Why are you using a dedicated base converter? This isn't the 1960s","Let's do base conversions!"]
     print(startup_items[item])
     number_input = input("Enter the number you want to convert: ").strip()
@@ -62,3 +64,4 @@ if __name__ == "__main__":
         raise SystemExit(1)
 
     print(f"'{number_input.upper()}' (Base-{original_base}) is '{converted}' (Base-{target_base}).")
+    

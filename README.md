@@ -1,2 +1,23 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1Lpan6Kl)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21200981)
+# The Hexorcist
+
+Doing Base-Conversions the way God intended.
+
+![A GNOME UI containing a window showing the Hexorcist Program](image.png)
+
+### Usage:
+Clone it, run it, quick re-write it:
+```
+python3 hexorcist.py
+```
+
+### Testing:
+- Tests run via pytest
+- Input validation included in Test Suite
+- Base validation included in Test Suite
+
+To verify these findings, you may run:
+
+```
+pytest
+```
+
